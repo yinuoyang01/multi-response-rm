@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.env
+wandb/
+runs/
+*.pt
+*.bin
+*.safetensors
+# Training data directory (not the mr2rm/data/ package)
+/data/
+outputs/
+# AI2-internal Beaker test config (not for public release)
+configs/molmo2_4b_500k_r128_ep3.yaml
